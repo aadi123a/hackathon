@@ -1,0 +1,9 @@
+{
+  "name": "Vesta Intelligence: The Autonomous Agronomist",
+  "description": "A hackathon-winning AI platform for agriculture featuring computer vision diagnostics, predictive market analytics, and a multilingual voice-enabled AI agronomist.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation",
+    "microphone"
+  ]
+}
