@@ -1,96 +1,104 @@
 # 🌾 Vesta Sentinel: The Distributed AI Agronomist
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![AI: Gemini 3.1](https://img.shields.io/badge/AI-Gemini%203.1-blue)](https://ai.google.dev/)
-[![Stack: Full-Stack](https://img.shields.io/badge/Stack-React%20%2B%20Express-green)](https://expressjs.com/)
+![License](https://img.shields.io/badge/License-MIT-green)
+![AI](https://img.shields.io/badge/AI-Gemini%203.1-blue)
+![Stack](https://img.shields.io/badge/Stack-Full--Stack-orange)
 
-Vesta Sentinel is a distributed intelligence network designed to protect regional agriculture. It turns every farmer's smartphone into a node in a collaborative defense system against pests, diseases, and climate volatility.
+## 🚀 Overview
 
-## 🚀 Killer Feature: The Sentinel Network
-Unlike traditional diagnostic apps, Vesta uses **Spatial-Temporal AI** to predict the spread of outbreaks. When one farmer detects a threat, the entire community is alerted with AI-generated prevention strategies tailored to their specific location and crop type.
+Vesta Sentinel is an AI-powered agricultural intelligence network designed to help farmers detect, predict, and prevent crop threats before they spread.
 
----
+Unlike traditional diagnostic tools that operate in isolation, Vesta Sentinel transforms every farmer's smartphone into a node within a collaborative defense network. Using Spatial-Temporal AI, the platform analyzes disease reports, environmental conditions, and regional patterns to provide early warnings and actionable recommendations.
 
-## 🛠 Tech Stack
+## ⭐ Key Features
+
+### 🌐 Sentinel Network
+
+When one farmer detects a pest infestation or crop disease, nearby farmers receive real-time alerts with AI-generated prevention strategies tailored to their location, crop type, and environmental conditions.
+
+### 🔬 Vision Lab
+
+* AI-powered crop disease detection
+* Leaf image analysis
+* Confidence scoring
+* Urgency assessment
+
+### 🧠 Sentinel Brain
+
+* Regional outbreak prediction
+* Climate and environmental correlation
+* Community-wide risk assessment
+* Preventive recommendations
+
+## 🛠 Technology Stack
 
 ### Frontend
-- **Framework:** React 19 (SPA)
-- **Styling:** Tailwind CSS (Mobile-first)
-- **Animations:** Framer Motion
-- **Charts:** Recharts
-- **Icons:** Lucide React
+
+* React 19
+* TypeScript
+* Tailwind CSS
+* Framer Motion
+* Recharts
+* Lucide React
 
 ### Backend
-- **Runtime:** Node.js (Express)
-- **Real-time:** Socket.io (WebSockets)
-- **Database:** SQLite (Better-SQLite3) for local persistence
-- **AI Integration:** Google Gemini 3.1 (Pro & Flash)
 
----
+* Node.js
+* Express.js
+* Socket.io
+* SQLite (Better-SQLite3)
 
-## 📂 Project Structure
+### AI
 
-```text
-vesta-sentinel/
-├── src/                # Frontend React Code
-│   ├── components/     # Reusable UI Components
-│   ├── services/       # AI & API Integration Services
-│   ├── types/          # TypeScript Definitions
-│   └── App.tsx         # Main Application Entry
-├── server.ts           # Express + WebSocket Backend
-├── vesta.db            # SQLite Database (Auto-generated)
-├── architecture.md     # Detailed System Design
-├── .env.example        # Environment Variable Template
-└── package.json        # Dependencies & Scripts
-```
-
----
+* Google Gemini 3.1 Pro
+* Google Gemini 3.1 Flash
 
 ## 🚦 Getting Started
 
 ### Prerequisites
-- Node.js (v18+)
-- A Google Gemini API Key
+
+* Node.js v18+
+* Google Gemini API Key
 
 ### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/vesta-sentinel.git
-   cd vesta-sentinel
-   ```
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+```bash
+git clone https://github.com/aadi123a/hackathon.git
+cd hackathon
+npm install
+cp .env.example .env
+```
 
-3. Set up environment variables:
-   ```bash
-   cp .env.example .env
-   # Add your GEMINI_API_KEY to .env
-   ```
+Add your Gemini API key:
 
-4. Start the development server:
-   ```bash
-   npm run dev
-   ```
+```env
+GEMINI_API_KEY=your_api_key_here
+```
 
----
+Start development:
 
-## 🧠 AI Pipelines
-
-### Vision Lab
-Uses **Gemini 3.1 Flash** for sub-second disease diagnostics from leaf images. It returns structured JSON including disease name, confidence, and urgency.
-
-### Sentinel Brain
-Uses **Gemini 3.1 Pro** to analyze regional clusters of reports. It correlates wind speed, humidity, and report density to broadcast community-wide alerts.
-
----
+```bash
+npm run dev
+```
 
 ## 📈 Roadmap
-- [ ] **Phase 1:** Multi-lingual voice support for non-literate farmers.
-- [ ] **Phase 2:** Satellite imagery integration for large-scale crop monitoring.
-- [ ] **Phase 3:** Blockchain-based crop insurance verification using AI diagnostics.
 
-## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+* [ ] Multi-lingual Voice Support
+* [ ] Satellite Crop Monitoring
+* [ ] Offline Field Mode
+* [ ] Mobile Application
+* [ ] AI-powered Crop Insurance Verification
+
+## 🏆 Hackathon Project
+
+Built to demonstrate how distributed AI systems can strengthen agricultural resilience and improve decision-making for farming communities.
+
+## 👨‍💻 Author
+
+Adarsh Mishra
+
+TY Computer Science Student
+Aspiring Full Stack Developer
+
+GitHub: https://github.com/aadi123a
+
